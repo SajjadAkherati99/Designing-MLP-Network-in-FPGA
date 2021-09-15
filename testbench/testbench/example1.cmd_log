@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/example1.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/example1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "example1.ngc" example1.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/example1.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/example1.syr" 

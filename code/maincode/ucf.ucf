@@ -1,0 +1,36 @@
+NET "in<0>" LOC = "P97";
+NET "in<1>" LOC = "P98";
+NET "in<2>" LOC = "P99";
+NET "in<3>" LOC = "P100";
+NET "in<4>" LOC = "P101";
+NET "in<5>" LOC = "P102";
+NET "in<6>" LOC = "P104";
+NET "in<7>" LOC = "P105";
+
+NET "DECorEN" LOC = "P57";
+NET "selectinputkind<0>" LOC = "P58";
+NET "selectinputkind<1>" LOC = "P59";
+
+NET "cl" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "cl" LOC = "P95";
+
+NET "clk" LOC = "P55";
+
+NET "rst" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "rst" LOC = "P61";
+
+NET "out<0>" LOC = "P78";
+NET "out<1>" LOC = "P79";
+NET "out<2>" LOC = "P80";
+NET "out<3>" LOC = "P81";
+NET "out<4>" LOC = "P82";
+NET "out<5>" LOC = "P83";
+NET "out<6>" LOC = "P84";
+NET "out<7>" LOC = "P85";
+NET "out<8>" LOC = "P62";
+NET "out<9>" LOC = "P64";
+
+
+
+
+

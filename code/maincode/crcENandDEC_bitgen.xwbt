@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\sajjad\course\electrical engineering\digital\project\code\maincode\crcENandDEC.ncd
+OUTFILE=D:\sajjad\course\electrical engineering\digital\project\code\maincode\crcENandDEC.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=D:\sajjad\course\electrical engineering\digital\project\code\maincode
+LICENSE=WebPack
+USER_INFO=__0_0_0

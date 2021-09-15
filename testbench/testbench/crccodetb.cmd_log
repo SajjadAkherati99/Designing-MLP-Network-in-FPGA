@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.syr" 
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crccodetb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/testbench/testbench/crccodetb.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/testbench/testbench/crccodetb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/testbench/testbench/crccodetb.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/testbench/testbench/crccodetb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crccodetb.ngc" crccodetb.ngd  

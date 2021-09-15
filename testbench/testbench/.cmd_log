@@ -1,0 +1,1 @@
+vhdtdtfi -lib work {D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/cod.v} -lang verilog -prj testbench -o .spl -module {} -template E:/xilinxise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 

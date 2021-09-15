@@ -1,4 +1,0 @@
-verilog work "cordic.v"
-vhdl work "basic_uart.vhd"
-verilog work "channel.v"
-verilog work "testbench.v"

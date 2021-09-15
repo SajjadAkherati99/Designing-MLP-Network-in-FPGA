@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=D:\sajjad\course\term6\fpga\hws\hw5\serial\serial\serial.ncd
-OUTFILE=D:\sajjad\course\term6\fpga\hws\hw5\serial\serial\serial.bit
-FAMILY=Spartan6
-PART=xc6slx9-3tqg144
-WORKINGDIR=D:\sajjad\course\term6\fpga\hws\hw5\serial\serial
-LICENSE=WebPack
-USER_INFO=__0_0_0

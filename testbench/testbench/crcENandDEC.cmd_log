@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crcENandDEC.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crcENandDEC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crcENandDEC.ngc" crcENandDEC.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o crcENandDEC_map.ncd crcENandDEC.ngd crcENandDEC.pcf 
+par -w -intstyle ise -ol high -mt off crcENandDEC_map.ncd crcENandDEC.ncd crcENandDEC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml crcENandDEC.twx crcENandDEC.ncd -o crcENandDEC.twr crcENandDEC.pcf 
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crcENandDEC.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/crcENandDEC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "crcENandDEC.ngc" crcENandDEC.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o crcENandDEC_map.ncd crcENandDEC.ngd crcENandDEC.pcf 
+par -w -intstyle ise -ol high -mt off crcENandDEC_map.ncd crcENandDEC.ncd crcENandDEC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml crcENandDEC.twx crcENandDEC.ncd -o crcENandDEC.twr crcENandDEC.pcf 

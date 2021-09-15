@@ -1,5 +1,0 @@
-xst -intstyle ise -ifn "D:/sajjad/course/term6/fpga/hws/hw5/cordicviauart/cordicvuart/basic_uart.xst" -ofn "D:/sajjad/course/term6/fpga/hws/hw5/cordicviauart/cordicvuart/basic_uart.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 basic_uart.ngc basic_uart.ngd  
-map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o basic_uart_map.ncd basic_uart.ngd basic_uart.pcf 
-par -w -intstyle ise -ol high -mt off basic_uart_map.ncd basic_uart.ncd basic_uart.pcf 
-trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml basic_uart.twx basic_uart.ncd -o basic_uart.twr basic_uart.pcf 

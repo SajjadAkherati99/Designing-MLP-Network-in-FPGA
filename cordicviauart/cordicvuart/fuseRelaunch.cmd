@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/sajjad/course/term6/fpga/hws/hw5/cordicviauart/cordicvuart/channel_isim_beh.exe" -prj "D:/sajjad/course/term6/fpga/hws/hw5/cordicviauart/cordicvuart/channel_beh.prj" "work.channel" "work.glbl" 

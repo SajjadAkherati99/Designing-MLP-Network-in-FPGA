@@ -1,6 +1,0 @@
-verilog work "SPRAM.v"
-verilog work "ipcore_dir/mulladd.v"
-verilog work "cordic.v"
-verilog work "slp.v"
-vhdl work "basic_uart.vhd"
-verilog work "mlp_reciever.v"

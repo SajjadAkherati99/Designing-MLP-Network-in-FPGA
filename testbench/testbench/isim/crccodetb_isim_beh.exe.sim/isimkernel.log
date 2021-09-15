@@ -1,0 +1,28 @@
+Command line:
+   crccodetb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49673
+
+Sun Jan 27 03:31:43 2019
+
+
+ Elaboration Time: 0.109201 sec
+
+ Current Memory Usage: 699.441 Meg
+
+ Total Signals          : 13
+ Total Nets             : 13
+ Total Signal Drivers   : 5
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 179
+
+ Total Simulation Time: 0.234002 sec
+
+ Current Memory Usage: 699.441 Meg
+
+Sun Jan 27 03:32:02 2019
+

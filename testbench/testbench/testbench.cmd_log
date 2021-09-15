@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.syr" 
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "testbench.ngc" testbench.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.syr" 
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.syr" 
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.syr" 
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/testbench.syr" 

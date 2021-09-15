@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/multiplier1.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/multiplier1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "multiplier1.ngc" multiplier1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiplier1_map.ncd multiplier1.ngd multiplier1.pcf 
+par -w -intstyle ise -ol high -mt off multiplier1_map.ncd multiplier1.ncd multiplier1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiplier1.twx multiplier1.ncd -o multiplier1.twr multiplier1.pcf 
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/multiplier1.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/multiplier1.syr" 
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/multiplier1.xst" -ofn "D:/sajjad/course/electrical engineering/digital/project/twstbench/testbench/multiplier1.syr" 

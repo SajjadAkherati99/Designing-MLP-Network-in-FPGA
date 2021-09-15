@@ -1,7 +1,0 @@
-verilog isim_temp "ipcore_dir/mulladd.v"
-verilog isim_temp "SPRAM.v"
-verilog isim_temp "cordic.v"
-verilog isim_temp "channel.v"
-verilog isim_temp "sender.v"
-verilog isim_temp "testbench.v"
-verilog isim_temp "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"
