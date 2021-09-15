@@ -1,0 +1,671 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: data_deinterleaver.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "data_deinterleaver.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "data_deinterleaver"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : data_deinterleaver
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\my_files\course\term8\FPGA\project\phase3\verilog\deinterleaver\data_deinterleaver.v" into library work
+Parsing module <data_deinterleaver>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <data_deinterleaver>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <data_deinterleaver>.
+    Related source file is "E:\my_files\course\term8\FPGA\project\phase3\verilog\deinterleaver\data_deinterleaver.v".
+        preamble = 2'b00
+        signal = 2'b01
+        data = 2'b11
+        waiting = 2'b10
+    Found 1-bit register for signal <SRL<1>>.
+    Found 1-bit register for signal <SRL<2>>.
+    Found 1-bit register for signal <SRL<3>>.
+    Found 1-bit register for signal <SRL<4>>.
+    Found 1-bit register for signal <SRL<5>>.
+    Found 1-bit register for signal <SRL<6>>.
+    Found 1-bit register for signal <SRL<7>>.
+    Found 1-bit register for signal <SRL<8>>.
+    Found 1-bit register for signal <SRL<9>>.
+    Found 1-bit register for signal <SRL<10>>.
+    Found 1-bit register for signal <SRL<11>>.
+    Found 1-bit register for signal <SRL<12>>.
+    Found 1-bit register for signal <SRL<13>>.
+    Found 1-bit register for signal <SRL<14>>.
+    Found 1-bit register for signal <SRL<15>>.
+    Found 1-bit register for signal <SRL<16>>.
+    Found 1-bit register for signal <SRL<17>>.
+    Found 1-bit register for signal <SRL<18>>.
+    Found 1-bit register for signal <SRL<19>>.
+    Found 1-bit register for signal <SRL<20>>.
+    Found 1-bit register for signal <SRL<21>>.
+    Found 1-bit register for signal <SRL<22>>.
+    Found 1-bit register for signal <SRL<23>>.
+    Found 1-bit register for signal <SRL<24>>.
+    Found 1-bit register for signal <SRL<25>>.
+    Found 1-bit register for signal <SRL<26>>.
+    Found 1-bit register for signal <SRL<27>>.
+    Found 1-bit register for signal <SRL<28>>.
+    Found 1-bit register for signal <SRL<29>>.
+    Found 1-bit register for signal <SRL<30>>.
+    Found 1-bit register for signal <SRL<31>>.
+    Found 1-bit register for signal <SRL<32>>.
+    Found 1-bit register for signal <SRL<33>>.
+    Found 1-bit register for signal <SRL<34>>.
+    Found 1-bit register for signal <SRL<35>>.
+    Found 1-bit register for signal <SRL<36>>.
+    Found 1-bit register for signal <SRL<37>>.
+    Found 1-bit register for signal <SRL<38>>.
+    Found 1-bit register for signal <SRL<39>>.
+    Found 1-bit register for signal <SRL<40>>.
+    Found 1-bit register for signal <SRL<41>>.
+    Found 1-bit register for signal <SRL<42>>.
+    Found 1-bit register for signal <SRL<43>>.
+    Found 1-bit register for signal <SRL<44>>.
+    Found 1-bit register for signal <SRL<45>>.
+    Found 1-bit register for signal <SRL<46>>.
+    Found 1-bit register for signal <SRL<47>>.
+    Found 1-bit register for signal <SRL<48>>.
+    Found 1-bit register for signal <SRL<49>>.
+    Found 1-bit register for signal <SRL<50>>.
+    Found 1-bit register for signal <SRL<51>>.
+    Found 1-bit register for signal <SRL<52>>.
+    Found 1-bit register for signal <SRL<53>>.
+    Found 1-bit register for signal <SRL<54>>.
+    Found 1-bit register for signal <SRL<55>>.
+    Found 1-bit register for signal <SRL<56>>.
+    Found 1-bit register for signal <SRL<57>>.
+    Found 1-bit register for signal <SRL<58>>.
+    Found 1-bit register for signal <SRL<59>>.
+    Found 1-bit register for signal <SRL<60>>.
+    Found 1-bit register for signal <SRL<61>>.
+    Found 1-bit register for signal <SRL<62>>.
+    Found 1-bit register for signal <SRL<63>>.
+    Found 1-bit register for signal <SRL<64>>.
+    Found 1-bit register for signal <SRL<65>>.
+    Found 1-bit register for signal <SRL<66>>.
+    Found 1-bit register for signal <SRL<67>>.
+    Found 1-bit register for signal <SRL<68>>.
+    Found 1-bit register for signal <SRL<69>>.
+    Found 1-bit register for signal <SRL<70>>.
+    Found 1-bit register for signal <SRL<71>>.
+    Found 1-bit register for signal <SRL<72>>.
+    Found 1-bit register for signal <SRL<73>>.
+    Found 1-bit register for signal <SRL<74>>.
+    Found 1-bit register for signal <SRL<75>>.
+    Found 1-bit register for signal <SRL<76>>.
+    Found 1-bit register for signal <SRL<77>>.
+    Found 1-bit register for signal <SRL<78>>.
+    Found 1-bit register for signal <SRL<79>>.
+    Found 1-bit register for signal <SRL<80>>.
+    Found 1-bit register for signal <SRL<81>>.
+    Found 1-bit register for signal <SRL<82>>.
+    Found 1-bit register for signal <SRL<83>>.
+    Found 1-bit register for signal <SRL<84>>.
+    Found 1-bit register for signal <SRL<85>>.
+    Found 1-bit register for signal <SRL<86>>.
+    Found 1-bit register for signal <SRL<87>>.
+    Found 1-bit register for signal <SRL<88>>.
+    Found 1-bit register for signal <SRL<89>>.
+    Found 1-bit register for signal <SRL<90>>.
+    Found 1-bit register for signal <SRL<91>>.
+    Found 1-bit register for signal <SRL<92>>.
+    Found 1-bit register for signal <SRL<93>>.
+    Found 1-bit register for signal <SRL<94>>.
+    Found 1-bit register for signal <SRL<95>>.
+    Found 1-bit register for signal <SRL<96>>.
+    Found 1-bit register for signal <SRL<97>>.
+    Found 1-bit register for signal <SRL<98>>.
+    Found 1-bit register for signal <SRL<99>>.
+    Found 1-bit register for signal <SRL<100>>.
+    Found 1-bit register for signal <SRL<101>>.
+    Found 1-bit register for signal <SRL<102>>.
+    Found 1-bit register for signal <SRL<103>>.
+    Found 1-bit register for signal <SRL<104>>.
+    Found 1-bit register for signal <SRL<105>>.
+    Found 1-bit register for signal <SRL<106>>.
+    Found 1-bit register for signal <SRL<107>>.
+    Found 1-bit register for signal <SRL<108>>.
+    Found 1-bit register for signal <SRL<109>>.
+    Found 1-bit register for signal <SRL<110>>.
+    Found 1-bit register for signal <SRL<111>>.
+    Found 1-bit register for signal <SRL<112>>.
+    Found 1-bit register for signal <SRL<113>>.
+    Found 1-bit register for signal <SRL<114>>.
+    Found 1-bit register for signal <SRL<115>>.
+    Found 1-bit register for signal <SRL<116>>.
+    Found 1-bit register for signal <SRL<117>>.
+    Found 1-bit register for signal <SRL<118>>.
+    Found 1-bit register for signal <SRL<119>>.
+    Found 1-bit register for signal <SRL<120>>.
+    Found 1-bit register for signal <SRL<121>>.
+    Found 1-bit register for signal <SRL<122>>.
+    Found 1-bit register for signal <SRL<123>>.
+    Found 1-bit register for signal <SRL<124>>.
+    Found 1-bit register for signal <SRL<125>>.
+    Found 1-bit register for signal <SRL<126>>.
+    Found 1-bit register for signal <SRL<127>>.
+    Found 1-bit register for signal <SRL<128>>.
+    Found 1-bit register for signal <SRL<129>>.
+    Found 1-bit register for signal <SRL<130>>.
+    Found 1-bit register for signal <SRL<131>>.
+    Found 1-bit register for signal <SRL<132>>.
+    Found 1-bit register for signal <SRL<133>>.
+    Found 1-bit register for signal <SRL<134>>.
+    Found 1-bit register for signal <SRL<135>>.
+    Found 1-bit register for signal <SRL<136>>.
+    Found 1-bit register for signal <SRL<137>>.
+    Found 1-bit register for signal <SRL<138>>.
+    Found 1-bit register for signal <SRL<139>>.
+    Found 1-bit register for signal <SRL<140>>.
+    Found 1-bit register for signal <SRL<141>>.
+    Found 1-bit register for signal <SRL<142>>.
+    Found 1-bit register for signal <SRL<143>>.
+    Found 1-bit register for signal <SRL<144>>.
+    Found 1-bit register for signal <SRL<145>>.
+    Found 1-bit register for signal <SRL<146>>.
+    Found 1-bit register for signal <SRL<147>>.
+    Found 1-bit register for signal <SRL<148>>.
+    Found 1-bit register for signal <SRL<149>>.
+    Found 1-bit register for signal <SRL<150>>.
+    Found 1-bit register for signal <SRL<151>>.
+    Found 1-bit register for signal <SRL<152>>.
+    Found 1-bit register for signal <SRL<153>>.
+    Found 1-bit register for signal <SRL<154>>.
+    Found 1-bit register for signal <SRL<155>>.
+    Found 1-bit register for signal <SRL<156>>.
+    Found 1-bit register for signal <SRL<157>>.
+    Found 1-bit register for signal <SRL<158>>.
+    Found 1-bit register for signal <SRL<159>>.
+    Found 1-bit register for signal <SRL<160>>.
+    Found 1-bit register for signal <SRL<161>>.
+    Found 1-bit register for signal <SRL<162>>.
+    Found 1-bit register for signal <SRL<163>>.
+    Found 1-bit register for signal <SRL<164>>.
+    Found 1-bit register for signal <SRL<165>>.
+    Found 1-bit register for signal <SRL<166>>.
+    Found 1-bit register for signal <SRL<167>>.
+    Found 1-bit register for signal <SRL<168>>.
+    Found 1-bit register for signal <SRL<169>>.
+    Found 1-bit register for signal <SRL<170>>.
+    Found 1-bit register for signal <SRL<171>>.
+    Found 1-bit register for signal <SRL<172>>.
+    Found 1-bit register for signal <SRL<173>>.
+    Found 1-bit register for signal <SRL<174>>.
+    Found 1-bit register for signal <SRL<175>>.
+    Found 1-bit register for signal <SRL<176>>.
+    Found 1-bit register for signal <SRL<177>>.
+    Found 1-bit register for signal <SRL<178>>.
+    Found 1-bit register for signal <SRL<179>>.
+    Found 1-bit register for signal <SRL<180>>.
+    Found 1-bit register for signal <SRL<181>>.
+    Found 1-bit register for signal <SRL<182>>.
+    Found 1-bit register for signal <SRL<183>>.
+    Found 1-bit register for signal <SRL<184>>.
+    Found 1-bit register for signal <SRL<185>>.
+    Found 1-bit register for signal <SRL<186>>.
+    Found 1-bit register for signal <SRL<187>>.
+    Found 1-bit register for signal <SRL<188>>.
+    Found 1-bit register for signal <SRL<189>>.
+    Found 1-bit register for signal <SRL<190>>.
+    Found 1-bit register for signal <SRL<191>>.
+    Found 4-bit register for signal <counter16>.
+    Found 4-bit register for signal <counter_rate>.
+    Found 2-bit register for signal <state_receive>.
+    Found 2-bit register for signal <state_send>.
+    Found 192-bit register for signal <SRL_out>.
+    Found 8-bit register for signal <counter_send>.
+    Found 1-bit register for signal <out_valid>.
+    Found 1-bit register for signal <out>.
+    Found 1-bit register for signal <SRL<0>>.
+    Found finite state machine <FSM_0> for signal <state_receive>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 5                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Reset              | reset_INV_3_o (positive)                       |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit adder for signal <counter_rate[3]_GND_1_o_add_10_OUT> created at line 40.
+    Found 8-bit adder for signal <counter_rate[3]_GND_1_o_add_11_OUT> created at line 42.
+    Found 4-bit adder for signal <counter16[3]_GND_1_o_add_36_OUT> created at line 93.
+    Found 4-bit adder for signal <counter_rate[3]_GND_1_o_add_41_OUT> created at line 97.
+    Found 8-bit adder for signal <counter_send[7]_GND_1_o_add_68_OUT> created at line 118.
+    Found 1-bit 192-to-1 multiplexer for signal <counter_send[7]_X_1_o_Mux_65_o> created at line 112.
+    Found 4-bit comparator equal for signal <counter_rate[3]_counter_rate_high[3]_equal_34_o> created at line 83
+    Found 8-bit comparator lessequal for signal <n0439> created at line 113
+    Found 8-bit comparator greater for signal <counter_send[7]_N_CBPS[7]_LessThan_68_o> created at line 117
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred 404 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred 585 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <data_deinterleaver> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 4-bit adder                                           : 2
+ 8-bit adder                                           : 2
+# Registers                                            : 199
+ 1-bit register                                        : 194
+ 192-bit register                                      : 1
+ 2-bit register                                        : 1
+ 4-bit register                                        : 2
+ 8-bit register                                        : 1
+# Comparators                                          : 3
+ 4-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 1
+ 8-bit comparator lessequal                            : 1
+# Multiplexers                                         : 585
+ 1-bit 192-to-1 multiplexer                            : 1
+ 1-bit 2-to-1 multiplexer                              : 576
+ 4-bit 2-to-1 multiplexer                              : 5
+ 8-bit 2-to-1 multiplexer                              : 3
+# FSMs                                                 : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 1
+ 36-bit xor2                                           : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <data_deinterleaver>.
+The following registers are absorbed into counter <counter16>: 1 register on signal <counter16>.
+The following registers are absorbed into counter <counter_send>: 1 register on signal <counter_send>.
+Unit <data_deinterleaver> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 2
+ 4-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 392
+ Flip-Flops                                            : 392
+# Comparators                                          : 3
+ 4-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 1
+ 8-bit comparator lessequal                            : 1
+# Multiplexers                                         : 583
+ 1-bit 192-to-1 multiplexer                            : 1
+ 1-bit 2-to-1 multiplexer                              : 576
+ 4-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 1
+ 36-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <state_receive[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 11    | 11
+-------------------
+
+Optimizing unit <data_deinterleaver> ...
+INFO:Xst:2261 - The FF/Latch <state_send_0> in Unit <data_deinterleaver> is equivalent to the following FF/Latch, which will be removed : <state_receive_FSM_FFd1> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block data_deinterleaver, actual ratio is 2.
+FlipFlop counter16_0 has been replicated 5 time(s)
+FlipFlop counter16_1 has been replicated 2 time(s)
+FlipFlop counter16_2 has been replicated 2 time(s)
+FlipFlop counter16_3 has been replicated 2 time(s)
+FlipFlop counter_rate_0 has been replicated 1 time(s)
+FlipFlop counter_rate_1 has been replicated 3 time(s)
+FlipFlop counter_rate_2 has been replicated 2 time(s)
+FlipFlop counter_rate_3 has been replicated 4 time(s)
+FlipFlop counter_send_0 has been replicated 2 time(s)
+FlipFlop state_receive_FSM_FFd2 has been replicated 3 time(s)
+FlipFlop state_send_0 has been replicated 3 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 434
+ Flip-Flops                                            : 434
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : data_deinterleaver.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 783
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 8
+#      LUT3                        : 32
+#      LUT4                        : 187
+#      LUT5                        : 145
+#      LUT6                        : 355
+#      MUXCY                       : 7
+#      MUXF7                       : 25
+#      MUXF8                       : 12
+#      VCC                         : 1
+#      XORCY                       : 8
+# FlipFlops/Latches                : 434
+#      FD                          : 1
+#      FDE                         : 192
+#      FDR                         : 6
+#      FDRE                        : 234
+#      FDSE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      IBUF                        : 6
+#      OBUF                        : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             434  out of  54576     0%  
+ Number of Slice LUTs:                  729  out of  27288     2%  
+    Number used as Logic:               729  out of  27288     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    745
+   Number with an unused Flip Flop:     311  out of    745    41%  
+   Number with an unused LUT:            16  out of    745     2%  
+   Number of fully used LUT-FF pairs:   418  out of    745    56%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    218     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 434   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.861ns (Maximum Frequency: 205.730MHz)
+   Minimum input arrival time before clock: 6.960ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 4.861ns (frequency: 205.730MHz)
+  Total number of paths / destination ports: 9099 / 859
+-------------------------------------------------------------------------
+Delay:               4.861ns (Levels of Logic = 4)
+  Source:            counter16_0_1 (FF)
+  Destination:       SRL_out_127 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: counter16_0_1 to SRL_out_127
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             3   0.447   0.879  counter16_0_1 (counter16_0_1)
+     LUT4:I1->O           17   0.205   1.028  Mmux_k_A11 (Mmux_k_rs_A<4>)
+     LUT5:I4->O           16   0.205   1.005  k[7]_Decoder_32_OUT<113><7>11 (k[7]_Decoder_32_OUT<113><7>1)
+     LUT6:I5->O            1   0.205   0.580  Mmux_SRL[127]_in_MUX_655_o11 (SRL[127]_in_MUX_655_o)
+     LUT4:I3->O            1   0.205   0.000  SRL_out_127_dpot1 (SRL_out_127_dpot1)
+     FDE:D                     0.102          SRL_out_127
+    ----------------------------------------
+    Total                      4.861ns (1.369ns logic, 3.492ns route)
+                                       (28.2% logic, 71.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 4230 / 690
+-------------------------------------------------------------------------
+Offset:              6.960ns (Levels of Logic = 6)
+  Source:            rate<3> (PAD)
+  Destination:       SRL_out_127 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: rate<3> to SRL_out_127
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.898  rate_3_IBUF (rate_3_IBUF)
+     LUT4:I0->O           10   0.203   1.104  rate[3]_PWR_1_o_equal_10_o<3>1 (rate[3]_PWR_1_o_equal_10_o)
+     LUT4:I0->O           17   0.203   1.028  Mmux_k_A11 (Mmux_k_rs_A<4>)
+     LUT5:I4->O           16   0.205   1.005  k[7]_Decoder_32_OUT<113><7>11 (k[7]_Decoder_32_OUT<113><7>1)
+     LUT6:I5->O            1   0.205   0.580  Mmux_SRL[127]_in_MUX_655_o11 (SRL[127]_in_MUX_655_o)
+     LUT4:I3->O            1   0.205   0.000  SRL_out_127_dpot1 (SRL_out_127_dpot1)
+     FDE:D                     0.102          SRL_out_127
+    ----------------------------------------
+    Total                      6.960ns (2.345ns logic, 4.615ns route)
+                                       (33.7% logic, 66.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            out (FF)
+  Destination:       out (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: out to out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  out (out_OBUF)
+     OBUF:I->O                 2.571          out_OBUF (out)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    4.861|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.78 secs
+ 
+--> 
+
+Total memory usage is 267684 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

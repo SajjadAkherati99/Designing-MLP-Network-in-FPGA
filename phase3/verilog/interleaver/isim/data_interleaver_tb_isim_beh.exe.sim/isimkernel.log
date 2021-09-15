@@ -1,0 +1,28 @@
+Command line:
+   data_interleaver_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  7145
+
+Wed Jul 07 23:35:32 2021
+
+
+ Elaboration Time: 0.093601 sec
+
+ Current Memory Usage: 674.21 Meg
+
+ Total Signals          : 25
+ Total Nets             : 45
+ Total Signal Drivers   : 17
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 23
+ Total Traceable Variables  : 43
+ Total Scalar Nets and Variables : 647
+
+ Total Simulation Time: 0.374402 sec
+
+ Current Memory Usage: 674.21 Meg
+
+Wed Jul 07 23:48:49 2021
+

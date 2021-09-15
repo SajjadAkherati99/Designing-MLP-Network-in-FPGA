@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 data_interleaver.ngc data_interleaver.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o data_interleaver_map.ncd data_interleaver.ngd data_interleaver.pcf 
+par -w -intstyle ise -ol high -mt off data_interleaver_map.ncd data_interleaver.ncd data_interleaver.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml data_interleaver.twx data_interleaver.ncd -o data_interleaver.twr data_interleaver.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 data_interleaver.ngc data_interleaver.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o data_interleaver_map.ncd data_interleaver.ngd data_interleaver.pcf 
+par -w -intstyle ise -ol high -mt off data_interleaver_map.ncd data_interleaver.ncd data_interleaver.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml data_interleaver.twx data_interleaver.ncd -o data_interleaver.twr data_interleaver.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 data_interleaver.ngc data_interleaver.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o data_interleaver_map.ncd data_interleaver.ngd data_interleaver.pcf 
+par -w -intstyle ise -ol high -mt off data_interleaver_map.ncd data_interleaver.ncd data_interleaver.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml data_interleaver.twx data_interleaver.ncd -o data_interleaver.twr data_interleaver.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 data_interleaver.ngc data_interleaver.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o data_interleaver_map.ncd data_interleaver.ngd data_interleaver.pcf 
+par -w -intstyle ise -ol high -mt off data_interleaver_map.ncd data_interleaver.ncd data_interleaver.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml data_interleaver.twx data_interleaver.ncd -o data_interleaver.twr data_interleaver.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/interleaver/data_interleaver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 data_interleaver.ngc data_interleaver.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o data_interleaver_map.ncd data_interleaver.ngd data_interleaver.pcf 
+par -w -intstyle ise -ol high -mt off data_interleaver_map.ncd data_interleaver.ncd data_interleaver.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml data_interleaver.twx data_interleaver.ncd -o data_interleaver.twr data_interleaver.pcf 

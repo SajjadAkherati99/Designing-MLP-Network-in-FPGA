@@ -1,0 +1,31 @@
+Running: E:\software.engineer\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/Receiver_tb_isim_beh.exe -prj E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/Receiver_tb_beh.prj work.Receiver_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/viterbi_decoder.v" into library work
+Analyzing Verilog file "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/deScrambler.v" into library work
+Analyzing Verilog file "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/data_deinterleaver.v" into library work
+Analyzing Verilog file "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/Receiver.v" into library work
+Analyzing Verilog file "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/Receiver_tb.v" into library work
+Analyzing Verilog file "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:327 - "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/viterbi_decoder.v" Line 100: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/viterbi_decoder.v" Line 101: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/viterbi_decoder.v" Line 102: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/viterbi_decoder.v" Line 103: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/viterbi_decoder.v" Line 106: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/viterbi_decoder.v" Line 107: Concatenation with unsized literal; will interpret as 32 bits
+Completed static elaboration
+Compiling module data_deinterleaver
+Compiling module viterbi_decoder
+Compiling module deScrambler
+Compiling module Receiver
+Compiling module Receiver_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable E:/my_files/course/term8/FPGA/project/phase4/verilog/Receiver/Receiver_tb_isim_beh.exe
+Fuse Memory Usage: 46468 KB
+Fuse CPU Usage: 1044 ms

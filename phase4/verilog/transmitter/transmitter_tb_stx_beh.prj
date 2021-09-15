@@ -1,0 +1,6 @@
+verilog isim_temp "Scrambler.v"
+verilog isim_temp "data_interleaver.v"
+verilog isim_temp "conv_encoder.v"
+verilog isim_temp "transmitter.v"
+verilog isim_temp "transmitter_tb.v"
+verilog isim_temp "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

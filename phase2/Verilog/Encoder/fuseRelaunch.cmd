@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/my_files/course/term8/FPGA/project/phase2/Verilog/Encoder/conv_encoder_tb_isim_beh.exe" -prj "E:/my_files/course/term8/FPGA/project/phase2/Verilog/Encoder/conv_encoder_tb_beh.prj" "work.conv_encoder_tb" "work.glbl" 

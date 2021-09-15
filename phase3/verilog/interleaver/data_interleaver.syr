@@ -1,0 +1,510 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.16 secs
+ 
+--> Reading design: data_interleaver.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "data_interleaver.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "data_interleaver"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : data_interleaver
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\my_files\course\term8\FPGA\project\phase3\verilog\interleaver\data_interleaver.v" into library work
+Parsing module <data_interleaver>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <data_interleaver>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <data_interleaver>.
+    Related source file is "E:\my_files\course\term8\FPGA\project\phase3\verilog\interleaver\data_interleaver.v".
+        preamble = 2'b00
+        signal = 2'b01
+        data = 2'b11
+        waiting = 2'b10
+    Found 192-bit register for signal <SRL>.
+    Found 3-bit register for signal <counter16>.
+    Found 4-bit register for signal <counter_rate>.
+    Found 2-bit register for signal <state_receive>.
+    Found 2-bit register for signal <state_send>.
+    Found 7-bit register for signal <counter_send>.
+    Found 1-bit register for signal <AB_out_valid>.
+    Found 1-bit register for signal <second_permution>.
+    Found 3-bit register for signal <counter>.
+    Found 1-bit register for signal <A_out>.
+    Found 1-bit register for signal <B_out>.
+    Found 192-bit register for signal <SRL_out>.
+    Found finite state machine <FSM_0> for signal <state_receive>.
+    -----------------------------------------------------------------------
+    | States             | 2                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 2                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit subtractor for signal <counter_rate_high[3]_GND_1_o_sub_47_OUT> created at line 86.
+    Found 6-bit adder for signal <n0794[5:0]> created at line 39.
+    Found 7-bit adder for signal <n0797[6:0]> created at line 39.
+    Found 7-bit adder for signal <n0800[6:0]> created at line 41.
+    Found 8-bit adder for signal <n0782> created at line 41.
+    Found 8-bit adder for signal <n0807> created at line 43.
+    Found 8-bit adder for signal <BUS_0005_GND_1_o_add_16_OUT> created at line 43.
+    Found 6-bit adder for signal <n0815[5:0]> created at line 44.
+    Found 8-bit adder for signal <i[7]_GND_1_o_add_24_OUT> created at line 61.
+    Found 4-bit adder for signal <counter_rate[3]_GND_1_o_add_31_OUT> created at line 73.
+    Found 3-bit adder for signal <counter16[3]_GND_1_o_add_36_OUT> created at line 77.
+    Found 8-bit adder for signal <i[7]_GND_1_o_add_43_OUT> created at line 83.
+    Found 7-bit adder for signal <counter_send[7]_GND_1_o_add_106_OUT> created at line 155.
+    Found 3-bit adder for signal <counter[2]_GND_1_o_add_110_OUT> created at line 164.
+    Found 1-bit 192-to-1 multiplexer for signal <counter_send[7]_X_1_o_Mux_100_o> created at line 143.
+    Found 1-bit 192-to-1 multiplexer for signal <counter_send[7]_X_1_o_Mux_102_o> created at line 147.
+    Found 4-bit comparator equal for signal <counter_rate[3]_counter_rate_high[3]_equal_48_o> created at line 86
+    Found 7-bit comparator lessequal for signal <n0650> created at line 118
+    Found 7-bit comparator greater for signal <counter_send[7]_GND_1_o_LessThan_92_o> created at line 122
+    Found 7-bit comparator lessequal for signal <n0654> created at line 131
+    Found 8-bit comparator lessequal for signal <n0660> created at line 150
+    Found 8-bit comparator greater for signal <GND_1_o_N_CBPS_2[7]_LessThan_106_o> created at line 154
+    Summary:
+	inferred  13 Adder/Subtractor(s).
+	inferred 407 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred 604 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <data_interleaver> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 13
+ 3-bit adder                                           : 2
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+ 6-bit adder                                           : 2
+ 7-bit adder                                           : 3
+ 8-bit adder                                           : 4
+# Registers                                            : 11
+ 1-bit register                                        : 4
+ 192-bit register                                      : 2
+ 2-bit register                                        : 1
+ 3-bit register                                        : 2
+ 4-bit register                                        : 1
+ 7-bit register                                        : 1
+# Comparators                                          : 6
+ 4-bit comparator equal                                : 1
+ 7-bit comparator greater                              : 1
+ 7-bit comparator lessequal                            : 2
+ 8-bit comparator greater                              : 1
+ 8-bit comparator lessequal                            : 1
+# Multiplexers                                         : 604
+ 1-bit 192-to-1 multiplexer                            : 2
+ 1-bit 2-to-1 multiplexer                              : 582
+ 2-bit 2-to-1 multiplexer                              : 4
+ 3-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 5
+ 7-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 6
+# FSMs                                                 : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <data_interleaver>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+The following registers are absorbed into counter <counter16>: 1 register on signal <counter16>.
+Unit <data_interleaver> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+ 6-bit adder                                           : 2
+ 7-bit adder                                           : 3
+ 8-bit adder                                           : 4
+# Counters                                             : 2
+ 3-bit up counter                                      : 2
+# Registers                                            : 401
+ Flip-Flops                                            : 401
+# Comparators                                          : 6
+ 4-bit comparator equal                                : 1
+ 7-bit comparator greater                              : 1
+ 7-bit comparator lessequal                            : 2
+ 8-bit comparator greater                              : 1
+ 8-bit comparator lessequal                            : 1
+# Multiplexers                                         : 603
+ 1-bit 192-to-1 multiplexer                            : 2
+ 1-bit 2-to-1 multiplexer                              : 582
+ 2-bit 2-to-1 multiplexer                              : 4
+ 4-bit 2-to-1 multiplexer                              : 5
+ 7-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 6
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <state_receive[1:1]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 11    | 0
+ 01    | 1
+-------------------
+
+Optimizing unit <data_interleaver> ...
+INFO:Xst:2261 - The FF/Latch <SRL_191> in Unit <data_interleaver> is equivalent to the following FF/Latch, which will be removed : <SRL_out_191> 
+INFO:Xst:2261 - The FF/Latch <SRL_179> in Unit <data_interleaver> is equivalent to the following FF/Latch, which will be removed : <SRL_out_179> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block data_interleaver, actual ratio is 5.
+FlipFlop counter16_0 has been replicated 2 time(s)
+FlipFlop counter16_1 has been replicated 2 time(s)
+FlipFlop counter16_2 has been replicated 1 time(s)
+FlipFlop counter_rate_0 has been replicated 2 time(s)
+FlipFlop counter_rate_1 has been replicated 1 time(s)
+FlipFlop state_receive_FSM_FFd1 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 415
+ Flip-Flops                                            : 415
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : data_interleaver.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1973
+#      GND                         : 1
+#      INV                         : 4
+#      LUT2                        : 14
+#      LUT3                        : 51
+#      LUT4                        : 96
+#      LUT5                        : 168
+#      LUT6                        : 1477
+#      MUXCY                       : 14
+#      MUXF7                       : 132
+#      XORCY                       : 16
+# FlipFlops/Latches                : 415
+#      FD                          : 2
+#      FDE                         : 2
+#      FDRE                        : 393
+#      FDSE                        : 18
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 8
+#      OBUF                        : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             415  out of  54576     0%  
+ Number of Slice LUTs:                 1810  out of  27288     6%  
+    Number used as Logic:              1810  out of  27288     6%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1816
+   Number with an unused Flip Flop:    1401  out of   1816    77%  
+   Number with an unused LUT:             6  out of   1816     0%  
+   Number of fully used LUT-FF pairs:   409  out of   1816    22%  
+   Number of unique control sets:         7
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    218     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 415   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 9.352ns (Maximum Frequency: 106.928MHz)
+   Minimum input arrival time before clock: 11.586ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 9.352ns (frequency: 106.928MHz)
+  Total number of paths / destination ports: 592690 / 437
+-------------------------------------------------------------------------
+Delay:               9.352ns (Levels of Logic = 11)
+  Source:            counter_rate_3 (FF)
+  Destination:       SRL_out_167 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: counter_rate_3 to SRL_out_167
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            16   0.447   1.109  counter_rate_3 (counter_rate_3)
+     LUT4:I2->O            2   0.203   0.617  Madd_n0815[5:0]_cy<3>11 (Madd_n0815[5:0]_cy<3>)
+     LUT6:I5->O            1   0.205   0.000  Mmux_GND_1_o_BUS_0004_mux_20_OUT_A51 (Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_A<4>)
+     MUXCY:S->O            1   0.172   0.000  Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<4> (Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<5> (Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<5>)
+     XORCY:CI->O          97   0.180   1.858  Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_xor<6> (GND_1_o_BUS_0004_mux_20_OUT<6>)
+     LUT2:I1->O            1   0.205   0.000  Mmux_i711 (Mmux_i71)
+     MUXCY:S->O            0   0.172   0.000  Madd_i[7]_GND_1_o_add_43_OUT_cy<6> (Madd_i[7]_GND_1_o_add_43_OUT_cy<6>)
+     XORCY:CI->O         293   0.180   2.071  Madd_i[7]_GND_1_o_add_43_OUT_xor<7> (i[7]_GND_1_o_add_43_OUT<7>)
+     LUT6:I5->O            2   0.205   0.617  i[7]_Decoder_44_OUT<135><7>1 (i[7]_Decoder_44_OUT<135>)
+     LUT6:I5->O            1   0.205   0.580  state_receive[1]_SRL_out[0]_select_67_OUT<56>2_SW1 (N975)
+     LUT6:I5->O            1   0.205   0.000  state_receive[1]_SRL_out[0]_select_67_OUT<56>2 (state_receive[1]_SRL_out[0]_select_67_OUT<56>)
+     FDRE:D                    0.102          SRL_out_135
+    ----------------------------------------
+    Total                      9.352ns (2.500ns logic, 6.852ns route)
+                                       (26.7% logic, 73.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 1775137 / 1217
+-------------------------------------------------------------------------
+Offset:              11.586ns (Levels of Logic = 14)
+  Source:            rate<2> (PAD)
+  Destination:       SRL_out_167 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: rate<2> to SRL_out_167
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.222   1.130  rate_2_IBUF (rate_2_IBUF)
+     LUT4:I0->O           12   0.203   1.253  rate[3]_GND_1_o_equal_1_o<3>1 (rate[3]_GND_1_o_equal_1_o)
+     LUT6:I1->O            1   0.203   0.580  Mmux_GND_1_o_BUS_0004_mux_20_OUT_A41 (Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_A<3>)
+     LUT6:I5->O            1   0.205   0.000  Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_lut<3> (Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_lut<3>)
+     MUXCY:S->O            1   0.172   0.000  Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<3> (Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<4> (Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<5> (Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_cy<5>)
+     XORCY:CI->O          97   0.180   1.858  Mmux_GND_1_o_BUS_0004_mux_20_OUT_rs_xor<6> (GND_1_o_BUS_0004_mux_20_OUT<6>)
+     LUT2:I1->O            1   0.205   0.000  Mmux_i711 (Mmux_i71)
+     MUXCY:S->O            0   0.172   0.000  Madd_i[7]_GND_1_o_add_43_OUT_cy<6> (Madd_i[7]_GND_1_o_add_43_OUT_cy<6>)
+     XORCY:CI->O         293   0.180   2.071  Madd_i[7]_GND_1_o_add_43_OUT_xor<7> (i[7]_GND_1_o_add_43_OUT<7>)
+     LUT6:I5->O            2   0.205   0.617  i[7]_Decoder_44_OUT<135><7>1 (i[7]_Decoder_44_OUT<135>)
+     LUT6:I5->O            1   0.205   0.580  state_receive[1]_SRL_out[0]_select_67_OUT<56>2_SW1 (N975)
+     LUT6:I5->O            1   0.205   0.000  state_receive[1]_SRL_out[0]_select_67_OUT<56>2 (state_receive[1]_SRL_out[0]_select_67_OUT<56>)
+     FDRE:D                    0.102          SRL_out_135
+    ----------------------------------------
+    Total                     11.586ns (3.497ns logic, 8.089ns route)
+                                       (30.2% logic, 69.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            A_out (FF)
+  Destination:       A_out (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: A_out to A_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.447   0.579  A_out (A_out_OBUF)
+     OBUF:I->O                 2.571          A_out_OBUF (A_out)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    9.352|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 85.00 secs
+Total CPU time to Xst completion: 84.93 secs
+ 
+--> 
+
+Total memory usage is 311716 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+
