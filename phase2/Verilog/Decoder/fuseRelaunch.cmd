@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/my_files/course/term8/FPGA/project/phase2/Verilog/Decoder/viterbi_decoder_tb_isim_beh.exe" -prj "E:/my_files/course/term8/FPGA/project/phase2/Verilog/Decoder/viterbi_decoder_tb_beh.prj" "work.viterbi_decoder_tb" "work.glbl" 

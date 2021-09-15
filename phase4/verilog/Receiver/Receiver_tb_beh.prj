@@ -1,6 +1,0 @@
-verilog work "viterbi_decoder.v"
-verilog work "deScrambler.v"
-verilog work "data_deinterleaver.v"
-verilog work "Receiver.v"
-verilog work "Receiver_tb.v"
-verilog work "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

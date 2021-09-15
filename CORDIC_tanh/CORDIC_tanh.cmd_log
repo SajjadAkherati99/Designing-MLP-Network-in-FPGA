@@ -1,0 +1,59 @@
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "CORDIC_tanh.ngc" CORDIC_tanh.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORDIC_tanh_map.ncd CORDIC_tanh.ngd CORDIC_tanh.pcf 
+par -w -intstyle ise -ol high -mt off CORDIC_tanh_map.ncd CORDIC_tanh.ncd CORDIC_tanh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CORDIC_tanh.twx CORDIC_tanh.ncd -o CORDIC_tanh.twr CORDIC_tanh.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "CORDIC_tanh.ngc" CORDIC_tanh.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORDIC_tanh_map.ncd CORDIC_tanh.ngd CORDIC_tanh.pcf 
+par -w -intstyle ise -ol high -mt off CORDIC_tanh_map.ncd CORDIC_tanh.ncd CORDIC_tanh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CORDIC_tanh.twx CORDIC_tanh.ncd -o CORDIC_tanh.twr CORDIC_tanh.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "CORDIC_tanh.ngc" CORDIC_tanh.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORDIC_tanh_map.ncd CORDIC_tanh.ngd CORDIC_tanh.pcf 
+par -w -intstyle ise -ol high -mt off CORDIC_tanh_map.ncd CORDIC_tanh.ncd CORDIC_tanh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CORDIC_tanh.twx CORDIC_tanh.ncd -o CORDIC_tanh.twr CORDIC_tanh.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "CORDIC_tanh.ngc" CORDIC_tanh.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORDIC_tanh_map.ncd CORDIC_tanh.ngd CORDIC_tanh.pcf 
+par -w -intstyle ise -ol high -mt off CORDIC_tanh_map.ncd CORDIC_tanh.ncd CORDIC_tanh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CORDIC_tanh.twx CORDIC_tanh.ncd -o CORDIC_tanh.twr CORDIC_tanh.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "CORDIC_tanh.ngc" CORDIC_tanh.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORDIC_tanh_map.ncd CORDIC_tanh.ngd CORDIC_tanh.pcf 
+par -w -intstyle ise -ol high -mt off CORDIC_tanh_map.ncd CORDIC_tanh.ncd CORDIC_tanh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CORDIC_tanh.twx CORDIC_tanh.ncd -o CORDIC_tanh.twr CORDIC_tanh.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "CORDIC_tanh.ngc" CORDIC_tanh.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORDIC_tanh_map.ncd CORDIC_tanh.ngd CORDIC_tanh.pcf 
+par -w -intstyle ise -ol high -mt off CORDIC_tanh_map.ncd CORDIC_tanh.ncd CORDIC_tanh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CORDIC_tanh.twx CORDIC_tanh.ncd -o CORDIC_tanh.twr CORDIC_tanh.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "CORDIC_tanh.ngc" CORDIC_tanh.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORDIC_tanh_map.ncd CORDIC_tanh.ngd CORDIC_tanh.pcf 
+par -w -intstyle ise -ol high -mt off CORDIC_tanh_map.ncd CORDIC_tanh.ncd CORDIC_tanh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CORDIC_tanh.twx CORDIC_tanh.ncd -o CORDIC_tanh.twr CORDIC_tanh.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "CORDIC_tanh.ngc" CORDIC_tanh.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORDIC_tanh_map.ncd CORDIC_tanh.ngd CORDIC_tanh.pcf 
+par -w -intstyle ise -ol high -mt off CORDIC_tanh_map.ncd CORDIC_tanh.ncd CORDIC_tanh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CORDIC_tanh.twx CORDIC_tanh.ncd -o CORDIC_tanh.twr CORDIC_tanh.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.xst" -ofn "E:/my_files/course/term8/FPGA/hws/hw4/CORDIC Files/CORDIC_tanh/CORDIC_tanh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "CORDIC_tanh.ngc" CORDIC_tanh.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORDIC_tanh_map.ncd CORDIC_tanh.ngd CORDIC_tanh.pcf 
+par -w -intstyle ise -ol high -mt off CORDIC_tanh_map.ncd CORDIC_tanh.ncd CORDIC_tanh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CORDIC_tanh.twx CORDIC_tanh.ncd -o CORDIC_tanh.twr CORDIC_tanh.pcf 

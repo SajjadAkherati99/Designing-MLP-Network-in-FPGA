@@ -1,3 +1,0 @@
-verilog isim_temp "data_deinterleaver.v"
-verilog isim_temp "data_deinterleaver_tb.v"
-verilog isim_temp "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

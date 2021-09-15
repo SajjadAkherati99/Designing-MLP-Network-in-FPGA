@@ -1,4 +1,0 @@
-verilog work "viterbi_decoder.v"
-verilog work "deScrambler.v"
-verilog work "data_deinterleaver.v"
-verilog work "Receiver.v"

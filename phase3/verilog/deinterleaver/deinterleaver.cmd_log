@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "E:/my_files/course/term8/FPGA/project/phase3/verilog/deinterleaver/deinterleaver.xst" -ofn "E:/my_files/course/term8/FPGA/project/phase3/verilog/deinterleaver/deinterleaver.syr" 
