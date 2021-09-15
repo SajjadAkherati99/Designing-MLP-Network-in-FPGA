@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/code/cordic/cordic/tetsbench.xst" -ofn "D:/sajjad/course/electrical engineering/code/cordic/cordic/tetsbench.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "tetsbench.ngc" tetsbench.ngd  
+xst -intstyle ise -ifn "D:/sajjad/course/electrical engineering/code/cordic/cordic/tetsbench.xst" -ofn "D:/sajjad/course/electrical engineering/code/cordic/cordic/tetsbench.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "tetsbench.ngc" tetsbench.ngd  

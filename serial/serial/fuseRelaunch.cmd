@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/sajjad/course/term6/fpga/hws/hw5/serial/serial/basic_uart_isim_beh.exe" -prj "D:/sajjad/course/term6/fpga/hws/hw5/serial/serial/basic_uart_beh.prj" "work.basic_uart" 

@@ -1,0 +1,20 @@
+ISim log file
+Running: D:\sajjad\course\term6\fpga\hws\hw5\serial\serial\basic_uart_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/sajjad/course/term6/fpga/hws/hw5/serial/serial/basic_uart_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /basic_uart/clk 0 -radix bin -value 1 -radix bin -time 5 ps -repeat 10 ps
+# isim force add /basic_uart/reset 1 -radix bin -cancel 15 ps
+# isim force add /basic_uart/tx_data 00110110 -radix bin
+# run all
+Stopped at time : 16118750 ps : File "D:/sajjad/course/term6/fpga/hws/hw5/serial/serial/basic_uart.vhd" Line 66
+# isim force add /basic_uart/tx_enable 1 -radix bin
+# run all
+Stopped at time : 67325880 ps : File "D:/sajjad/course/term6/fpga/hws/hw5/serial/serial/basic_uart.vhd" Line 66
+# run all
+Stopped at time : 243531255 ps : File "D:/sajjad/course/term6/fpga/hws/hw5/serial/serial/basic_uart.vhd" Line 83

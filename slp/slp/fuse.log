@@ -1,0 +1,39 @@
+Running: E:\software.engineer\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/testbench_isim_beh.exe -prj D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/testbench_beh.prj work.testbench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/ipcore_dir/mulladd.v" into library work
+Analyzing Verilog file "D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/SPRAM.v" into library work
+Analyzing Verilog file "D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/cordic.v" into library work
+Analyzing Verilog file "D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/channel.v" into library work
+Analyzing Verilog file "D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/sender.v" into library work
+Analyzing Verilog file "D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/testbench.v" into library work
+Analyzing Verilog file "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Parsing VHDL file "D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/basic_uart.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module cordic(n=7)
+Compiling module SPRAM_default
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR...
+Compiling module GND
+Compiling module VCC
+Compiling module mulladd
+Compiling module channel
+Compiling module sender
+Compiling module testbench
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package math_real
+Compiling architecture behavioral of entity basic_uart [basic_uart_default]
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Compiled 10 Verilog Units
+Built simulation executable D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/testbench_isim_beh.exe
+Fuse Memory Usage: 42920 KB
+Fuse CPU Usage: 1029 ms

@@ -1,0 +1,69 @@
+INFO:sim:172 - Generating IP...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Resolving generics for 'mulladd'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Applying external generics to 'mulladd'...
+Delivering associated files for 'mulladd'...
+Generating implementation netlist for 'mulladd'...
+INFO:sim - Pre-processing HDL files for 'mulladd'...
+Running synthesis for 'mulladd'
+Running ngcbuild...
+Writing VEO instantiation template for 'mulladd'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Writing Verilog structural simulation model for 'mulladd'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Delivered 3 files into directory
+D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/mulladd
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'mulladd'...
+Generating metadata file...
+Generating ISE project...
+XCO file found: mulladd.xco
+XMDF file found: mulladd_xmdf.tcl
+Adding
+D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/core_resources.tx
+t -view all -origin_type imported
+Adding
+D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/gui_latency.txt
+-view all -origin_type imported
+Adding
+D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/mulladd.asy -view
+all -origin_type imported
+Adding
+D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/mulladd.ngc -view
+all -origin_type created
+Checking file
+"D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/mulladd.ngc" for
+project device match ...
+File
+"D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/mulladd.ngc"
+device information matches project device.
+Adding
+D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/mulladd.sym -view
+all -origin_type imported
+Adding D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/mulladd.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/mulladd.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+D:/sajjad/course/term6/fpga/hws/hw5/mlp/mlp/ipcore_dir/tmp/_cg/mulladd.veo -view
+all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/mulladd"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'mulladd'.

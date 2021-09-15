@@ -1,0 +1,5 @@
+verilog work "SPRAM.v"
+verilog work "ipcore_dir/mulladd.v"
+verilog work "cordic.v"
+vhdl work "basic_uart.vhd"
+verilog work "channel.v"

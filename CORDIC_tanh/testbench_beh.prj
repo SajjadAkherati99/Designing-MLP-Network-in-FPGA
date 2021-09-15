@@ -1,4 +1,0 @@
-verilog work "tanh_i_ROM.v"
-verilog work "CORDIC_tanh.v"
-verilog work "testbench.v"
-verilog work "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/testbench_isim_beh.exe" -prj "D:/sajjad/course/term6/fpga/hws/hw5/slp/slp/testbench_beh.prj" "work.testbench" "work.glbl" 

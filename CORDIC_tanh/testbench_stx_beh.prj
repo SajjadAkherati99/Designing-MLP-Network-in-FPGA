@@ -1,4 +1,0 @@
-verilog isim_temp "tanh_i_ROM.v"
-verilog isim_temp "CORDIC_tanh.v"
-verilog isim_temp "testbench.v"
-verilog isim_temp "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

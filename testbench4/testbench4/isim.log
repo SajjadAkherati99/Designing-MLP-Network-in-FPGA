@@ -1,0 +1,30 @@
+ISim log file
+Running: D:\sajjad\course\term6\fpga\hws\hw5\testbench4\testbench4\test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/sajjad/course/term6/fpga/hws/hw5/testbench4/testbench4/test_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+				please ignore the first ouput, this is for my latency
+# run all
+              330510	input = 10001011 		AND 	output = 01111111	
+              710670	input = 11000000 		AND 	output = 01001111	
+             1090830	input = 11110101 		AND 	output = 01100001	
+             1470990	input = 00101010 		AND 	output = 00001111	
+             1851150	input = 01011111 		AND 	output = 00110001	
+             2231310	input = 10010100 		AND 	output = 01000001	
+             2611470	input = 11001001 		AND 	output = 01001111	
+             2991630	input = 11111110 		AND 	output = 01101001	
+             3371790	input = 00110011 		AND 	output = 00011111	
+             3751950	input = 01101000 		AND 	output = 00110001	
+             4132110	input = 10011101 		AND 	output = 01000001	
+             4512270	input = 11010010 		AND 	output = 01011001	
+             4892430	input = 00000111 		AND 	output = 00000001	
+             5272590	input = 00111100 		AND 	output = 00011111	
+             5652750	input = 01110001 		AND 	output = 00111111	
+             6032910	input = 10100110 		AND 	output = 01000001	
+             6413070	input = 11011011 		AND 	output = 01011001	
+Stopped at time : 6660590 ns : File "D:/sajjad/course/term6/fpga/hws/hw5/testbench4/testbench4/test.v" Line 36

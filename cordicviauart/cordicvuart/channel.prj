@@ -1,0 +1,3 @@
+vhdl work "../../serial/serial/basic_uart.vhd"
+verilog work "../../../../../../electrical engineering/code/cordic/cordic/cordic.v"
+verilog work "channel.v"
